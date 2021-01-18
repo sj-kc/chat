@@ -53,7 +53,6 @@ button:disabled {
   align-items: center;
 }
 .centered-form__box {
-  /* box-shadow: 0 0 17px 1px #1d1f26; */
   background: #f8f9fa;
   border: 1px solid #dadce0;
   padding: 54px;
@@ -72,7 +71,7 @@ button:disabled {
 .chat__sidebar {
   height: 100vh;
   color: #fff;
-  background: #333744;
+  background: #06090f;
   width: 225px;
   overflow-y: scroll;
 }
@@ -125,8 +124,8 @@ button:disabled {
 }
 .room-title {
   font-weight: 400;
-  font-size: 22px;
-  background: #2c2f3a;
+  font-size: 14px;
+  background: #06090f;
   padding: 24px;
 }
 .list-title {
@@ -135,6 +134,7 @@ button:disabled {
   margin-bottom: 4px;
   padding: 12px 24px 0;
 }
+
 .users {
   list-style-type: none;
   font-weight: 300;
