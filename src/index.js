@@ -20,7 +20,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 const port = process.env.PORT || 3000;
-const publicPath = path.join(__dirname, '../docs');
+const publicPath = path.join(__dirname, '../public');
 
 io.on('connection', (socket) => {
   socket.on('join', (options, callback) => {
